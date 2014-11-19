@@ -1,5 +1,5 @@
 {
-  "name": "LuaLoader",
+  "name": "luanode-runtime",
   "version": "0.0.1",
   "description": "Allows you to load and call lua scripts and directories on demand",
   "main": "src/index.js",
@@ -10,6 +10,7 @@
   "keywords": [
     "Lua"
   ],
+  "repository": "https://github.com/danShumway/luanode-runtime",
   "author": "Daniel Shumway <shumway.danny@gmail.com> (http://www.latinforimagination.com/)",
   "license": "MIT",
   "dependencies": {
