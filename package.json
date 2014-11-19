@@ -1,6 +1,6 @@
 {
   "name": "luanode-runtime",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Allows you to load and call lua scripts and directories on demand",
   "main": "src/index.js",
   "scripts": {
