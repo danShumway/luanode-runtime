@@ -1,0 +1,19 @@
+{
+  "name": "LuaLoader",
+  "version": "0.0.1",
+  "description": "Allows you to load and call lua scripts and directories on demand",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Lua"
+  ],
+  "author": "Daniel Shumway <shumway.danny@gmail.com> (http://www.latinforimagination.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "recursive-readdir": "~1.2.0",
+    "diff": "~1.0.8"
+  }
+}
