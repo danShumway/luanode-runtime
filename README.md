@@ -59,8 +59,8 @@ Javascript can insert variables and methods into Lua scope
 var lua = require('luanode-runtime');
 
 //Pass in a name, and the object that you want to send.
-lua.setGlobal("jsVar", "hello from javascript");
-lua.setGlobal("jsMethod", function(str) { console.log(str); });
+lua.addGlobal("jsVar", "hello from javascript");
+lua.addGlobal("jsMethod", function(str) { console.log(str); });
 ```
 
 Lua scripts can now access a global scope at js.global
